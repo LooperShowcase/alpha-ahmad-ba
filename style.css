@@ -36,6 +36,13 @@ li a {
   text-decoration: none;
 }
 
+#modellist
+{
+  float:none;
+  display:flex;
+  list-style-type:none;
+}
+
 li a:hover:not(.active) {
   background-color: #ddd;
 }
